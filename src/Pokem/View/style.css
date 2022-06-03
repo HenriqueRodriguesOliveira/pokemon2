@@ -44,3 +44,10 @@
     font-size: 30px;
     text-transform: uppercase
   }
+
+
+  @media screen and (max-width: 960px) {
+    img{
+      left:3rem!important;
+    }
+  }

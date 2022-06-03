@@ -623,7 +623,7 @@
   width: 80px;
   position: relative;
   top: 4px;
-  left: 86rem;
+  left: 20rem;
 }
 
 .pokemon2 {
@@ -640,6 +640,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .pikachu {
+    display: none;
+  }
+  .pokemon2 {
+    display: none;
+  }
 }
 
 .s-0 {
@@ -1693,6 +1702,13 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Press Start 2P', cursive;
+}
+
+@media screen and (max-width: 960px) {
+  body body {
+    background-image: url("../assets/background.png");
+    background-size: 10px;
+  }
 }
 
 body::-webkit-scrollbar {

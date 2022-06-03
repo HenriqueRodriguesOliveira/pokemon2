@@ -366,7 +366,7 @@ $gutter: 32px;
   width: 80px;
   position: relative;
   top: 4px;
-  left: 86rem;
+  left: 20rem;
 }
 
 .pokemon2 {
@@ -379,4 +379,14 @@ $gutter: 32px;
 .botao2{
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .pikachu{
+    display: none;
+  }
+  .pokemon2{
+    display: none;
+  }
+
 }
