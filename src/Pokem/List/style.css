@@ -1,0 +1,33 @@
+.PokemonList {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .PokemonList li {
+    margin-bottom: 10px;
+  }
+  
+  .PokemonList li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all 200ms;
+  }
+  
+  .PokemonList__label {
+    font-size: 10px;
+    padding: 3px 8px;
+    background-color: #50fa7a;
+    color: #000000;
+    border-radius: 4px;
+  }
+  
+  .PokemonList li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    
+  }
+  
